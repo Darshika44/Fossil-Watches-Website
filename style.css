@@ -55,17 +55,17 @@ header .main-watch {
     position: absolute;
     right: 17%;
     top: 12.7%;
-    filter: drop-shadow(0px 0px 3px #000);
+    filter: drop-shadow(0px 0px 1px #000);
 }
 
 header .left-side nav {
     width: 90%;
     height: 10%;
-    /* border: 1px solid #fff; */
     margin: auto;
     color: #fff;
     display: flex;
     align-items: center;
+    /* border: 1px solid #fff; */
 }
 
 header .left-side nav ul {
@@ -92,24 +92,25 @@ header .left-side nav ul li a:hover{
 header .left-side nav .logo {
     font-size: 12px;
     margin-top: 4px;
+    display: flex;
 }
 
 header .left-side section {
     width: 90%;
     height: 70%;
-    /* border: 1px solid #fff; */
     margin: auto;
     display: flex;
+    /* border: 1px solid #fff; */
 }
 
 header .left-side section .lag, .content {
     height: 100%;
-    /* border: 1px solid #fff; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: #fff;
     margin-top: 5%;
+    /* border: 1px solid #fff; */
 }
 
 header .left-side section .content {
@@ -212,7 +213,6 @@ header .left-side footer .foot-box .img {
 } */
 
 header .right-side ul{
-    /* border: 1px solid #fff; */
     width: 90%;
     height: 10%;
     margin: auto;
@@ -220,6 +220,7 @@ header .right-side ul{
     align-items: center;
     justify-content: flex-end;
     list-style-type: none;
+    /* border: 1px solid #fff; */
 }
 
 header .right-side ul li {
